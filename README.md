@@ -3,7 +3,13 @@
 A minimal digital watch face for Wear OS, built entirely with the declarative
 [Watch Face Format](https://developer.android.com/training/wearables/wff) (no code).
 
-<img src="watchface/src/main/res/drawable/preview.png" alt="MinimalFace preview" width="300">
+<p align="center">
+  <img src="docs/screenshots/neon-plum.png" alt="Neon Plum theme" width="150">
+  <img src="docs/screenshots/mint-cyan.png" alt="Mint Cyan theme" width="150">
+  <img src="docs/screenshots/arctic-glacier.png" alt="Arctic Glacier theme with notification and battery complications" width="150">
+  <img src="docs/screenshots/cloud-dancer.png" alt="Cloud Dancer theme" width="150">
+  <img src="docs/screenshots/clay.png" alt="Clay theme" width="150">
+</p>
 
 - Big, bold time inside a full-color pill, with a blinking colon
 - Date pill and two complications (short text, ranged value, goal progress, icons)
