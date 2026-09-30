@@ -12,8 +12,8 @@ android {
         // WFF v4 => Wear OS 6 (API 36) e successivi.
         minSdk = 36
         targetSdk = 36
-        versionCode = 12
-        versionName = "1.1.2"
+        versionCode = 13
+        versionName = "1.2.0"
     }
 
     buildTypes {
