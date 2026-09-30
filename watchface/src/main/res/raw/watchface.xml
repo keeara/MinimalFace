@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WatchFace width="450" height="450">
+    <Metadata key="CLOCK_TYPE" value="DIGITAL" />
+    <Metadata key="PREVIEW_TIME" value="10:08:32" />
+    <UserConfigurations>
+        <ColorConfiguration id="themeColor" displayName="theme_color_label" screenReaderText="theme_color_label" defaultValue="0">
+            <ColorOption id="0" displayName="theme_color_zero_label" colors="#000000 #331720 #FFE1E7 #FFB1C6 #51172D #FFB1C6 #FFB1C6" />
+            <ColorOption id="1" displayName="theme_color_one_label" colors="#000000 #0C0319 #F1E3F9 #BF86FF #391E58 #BF86FF #BF86FF" />
+            <ColorOption id="2" displayName="theme_color_two_label" colors="#000000 #34180E #FFE2D9 #FFB59C #511A05 #FFB59C #FFB59C" />
+            <ColorOption id="3" displayName="theme_color_three_label" colors="#000000 #2E1C02 #FEE4C6 #FFB952 #3F2700 #FFB952 #FFB952" />
+            <ColorOption id="4" displayName="theme_color_four_label" colors="#000000 #00251E #D6EDE6 #00DFC1 #00332B #00DFC1 #00DFC1" />
+            <ColorOption id="5" displayName="theme_color_five_label" colors="#000000 #072517 #D9EDDF #75DAA8 #133223 #75DAA8 #75DAA8" />
+            <ColorOption id="6" displayName="theme_color_six_label" colors="#000000 #281A31 #F3E3F8 #E1B6FF #39224A #E1B6FF #E1B6FF" />
+            <ColorOption id="7" displayName="theme_color_seven_label" colors="#000000 #0B2133 #DDE9F9 #94CCFF #152E42 #94CCFF #94CCFF" />
+            <ColorOption id="8" displayName="theme_color_eight_label" colors="#000000 #2B1D01 #EEE7E0 #F3EADF #2F2C26 #F3EADF #F3EADF" />
+            <ColorOption id="9" displayName="theme_color_nine_label" colors="#000000 #002428 #D6ECF0 #60D7E5 #0B3135 #60D7E5 #60D7E5" />
+            <ColorOption id="10" displayName="theme_color_ten_label" colors="#000000 #2B1304 #FEE3D5 #E3A27A #412513 #E3A27A #E3A27A" />
+            <ColorOption id="11" displayName="theme_color_eleven_label" colors="#000000 #192309 #E7EADA #BACE98 #272F1A #BACE98 #BACE98" />
+            <ColorOption id="12" displayName="theme_color_twelve_label" colors="#000000 #261F02 #F2E8C6 #E2C633 #342C01 #E2C633 #E2C633" />
+            <ColorOption id="13" displayName="theme_color_thirteen_label" colors="#000000 #050920 #E6E7FC #8EA0FF #202954 #8EA0FF #8EA0FF" />
+            <ColorOption id="14" displayName="theme_color_fourteen_label" colors="#000000 #16230B #E1ECD2 #9ADF62 #1C3209 #9ADF62 #9ADF62" />
+            <ColorOption id="15" displayName="theme_color_fifteen_label" colors="#000000 #000A02 #DCEDD8 #68B071 #16321A #68B071 #68B071" />
+        </ColorConfiguration>
+    </UserConfigurations>
+    <Scene backgroundColor="#000000">
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <Rectangle x="0" y="0" width="450" height="450">
+                <Fill color="[CONFIGURATION.themeColor.0]" />
+            </Rectangle>
+        </PartDraw>
+
+        <!-- Hour Pill -->
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <RoundRectangle x="12" y="118" width="426" height="210" cornerRadiusX="105" cornerRadiusY="105">
+                <Fill color="[CONFIGURATION.themeColor.5]" />
+            </RoundRectangle>
+        </PartDraw>
+
+        <PartDraw x="0" y="0" width="450" height="450" alpha="0">
+            <Variant mode="AMBIENT" target="alpha" value="150" />
+            <RoundRectangle x="13" y="119" width="424" height="208" cornerRadiusX="104" cornerRadiusY="104">
+                <Stroke thickness="2" color="[CONFIGURATION.themeColor.5]" />
+            </RoundRectangle>
+        </PartDraw>
+
+        <!-- Hour Text: Lowered to y=165 for better physical centering -->
+        <PartText x="30" y="109" width="180" height="220">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <Text align="END">
+                <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
+                    <Template>%s<Parameter expression="[HOUR_0_23_Z]" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <Group name="colon" x="0" y="0" width="450" height="450">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <PartText x="210" y="109" width="30" height="220">
+                <Transform target="alpha" value="255 * (1 - [SECOND] % 2)" />
+                <Text align="CENTER">
+                    <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
+                        <Template>:</Template>
+                    </Font>
+                </Text>
+            </PartText>
+        </Group>
+
+        <PartText x="240" y="109" width="180" height="220">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <Text align="START">
+                <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
+                    <Template>%s<Parameter expression="[MINUTE_Z]" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <PartText x="40" y="125" width="370" height="196" alpha="0">
+            <Variant mode="AMBIENT" target="alpha" value="200" />
+            <Text align="CENTER" isAutoSize="TRUE">
+                <Font family="quicksand" weight="NORMAL" size="172" color="[CONFIGURATION.themeColor.6]">
+                    <Template>%s:%s<Parameter expression="[HOUR_0_23_Z]" /><Parameter expression="[MINUTE_Z]" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <!-- Date Pill -->
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <RoundRectangle x="105" y="336" width="240" height="56" cornerRadiusX="28" cornerRadiusY="28">
+                <Fill color="[CONFIGURATION.themeColor.4]" />
+            </RoundRectangle>
+        </PartDraw>
+
+        <PartDraw x="0" y="0" width="450" height="450" alpha="0">
+            <Variant mode="AMBIENT" target="alpha" value="150" />
+            <RoundRectangle x="106" y="337" width="238" height="54" cornerRadiusX="27" cornerRadiusY="27">
+                <Stroke thickness="2" color="[CONFIGURATION.themeColor.3]" />
+            </RoundRectangle>
+        </PartDraw>
+
+        <PartText x="105" y="336" width="240" height="56">
+            <Variant mode="AMBIENT" target="alpha" value="200" />
+            <Text align="CENTER" ellipsis="TRUE">
+                <Font family="google_sans_flex" weight="MEDIUM" size="34" color="[CONFIGURATION.themeColor.2]">
+                    <Upper><Template>%s<Parameter expression="subText([DAY_OF_WEEK_S], 0, 1)" /></Template></Upper>
+                    <Template>%s <Parameter expression="subText([DAY_OF_WEEK_S], 1, textLength([DAY_OF_WEEK_S]))" /></Template>
+                    <Upper><Template>%s<Parameter expression="subText([MONTH_S], 0, 1)" /></Template></Upper>
+                    <Template>%1$s %2$s<Parameter expression="subText([MONTH_S], 1, textLength([MONTH_S]))" /><Parameter expression="[DAY]" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <!-- Slot 1 (Left) -->
+        <ComplicationSlot x="78" y="58" width="141" height="52" slotId="1" displayName="@string/complication_slot1_label" supportedTypes="RANGED_VALUE GOAL_PROGRESS SHORT_TEXT MONOCHROMATIC_IMAGE SMALL_IMAGE EMPTY">
+            <BoundingRoundBox x="0" y="0" width="141" height="52" cornerRadius="26" />
+            <DefaultProviderPolicy defaultSystemProvider="STEP_COUNT" defaultSystemProviderType="SHORT_TEXT" />
+
+            <Complication type="SHORT_TEXT">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="0" y="0" width="141" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <Condition>
+                    <Expressions><Expression name="has_icon">[COMPLICATION.MONOCHROMATIC_IMAGE] != null</Expression></Expressions>
+                    <Compare expression="has_icon">
+                        <PartImage x="14" y="10" width="32" height="32" tintColor="[CONFIGURATION.themeColor.3]">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <ImageFilters><HsbFilter saturate="0" /></ImageFilters>
+                            <Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+                        </PartImage>
+                        <PartText x="48" y="0" width="80" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="30" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Compare>
+                    <Default>
+                        <PartText x="0" y="0" width="141" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="32" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Default>
+                </Condition>
+            </Complication>
+
+            <Complication type="RANGED_VALUE">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="0" y="0" width="141" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52" alpha="90">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="109" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                    </Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="32" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                        <Transform target="endX" value="32 + 77 * clamp(([COMPLICATION.RANGED_VALUE_VALUE] - [COMPLICATION.RANGED_VALUE_MIN]) / ([COMPLICATION.RANGED_VALUE_MAX] - [COMPLICATION.RANGED_VALUE_MIN]), 0, 1)" />
+                    </Line>
+                </PartDraw>
+                <Condition>
+                    <Expressions><Expression name="has_icon">[COMPLICATION.MONOCHROMATIC_IMAGE] != null</Expression></Expressions>
+                    <Compare expression="has_icon">
+                        <PartImage x="14" y="10" width="32" height="32" tintColor="[CONFIGURATION.themeColor.3]">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <ImageFilters><HsbFilter saturate="0" /></ImageFilters>
+                            <Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+                        </PartImage>
+                        <PartText x="48" y="0" width="80" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="30" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Compare>
+                    <Default>
+                        <PartText x="0" y="0" width="141" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="32" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Default>
+                </Condition>
+            </Complication>
+
+            <Complication type="GOAL_PROGRESS">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="0" y="0" width="141" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52" alpha="90">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="109" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                    </Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="32" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                        <Transform target="endX" value="32 + 77 * clamp([COMPLICATION.GOAL_PROGRESS_VALUE] / [COMPLICATION.GOAL_PROGRESS_TARGET_VALUE], 0, 1)" />
+                    </Line>
+                </PartDraw>
+                <PartText x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="200" />
+                    <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                        <Font family="google_sans_flex" weight="MEDIUM" size="32" color="[CONFIGURATION.themeColor.2]">
+                            <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="MONOCHROMATIC_IMAGE">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="44" y="0" width="52" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartImage x="56" y="11" width="30" height="30" tintColor="[CONFIGURATION.themeColor.3]">
+                    <Variant mode="AMBIENT" target="alpha" value="200" />
+                    <ImageFilters><HsbFilter saturate="0" /></ImageFilters>
+                    <Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+                </PartImage>
+            </Complication>
+
+            <Complication type="SMALL_IMAGE">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="44" y="0" width="52" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartImage x="56" y="11" width="30" height="30">
+                    <Variant mode="AMBIENT" target="alpha" value="200" />
+                    <Image resource="[COMPLICATION.SMALL_IMAGE]" />
+                </PartImage>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- Slot 2 (Right) -->
+        <ComplicationSlot x="231" y="58" width="141" height="52" slotId="2" displayName="@string/complication_slot2_label" supportedTypes="RANGED_VALUE GOAL_PROGRESS SHORT_TEXT MONOCHROMATIC_IMAGE SMALL_IMAGE EMPTY">
+            <BoundingRoundBox x="0" y="0" width="141" height="52" cornerRadius="26" />
+            <DefaultProviderPolicy defaultSystemProvider="DAY_OF_WEEK" defaultSystemProviderType="SHORT_TEXT" />
+
+            <Complication type="SHORT_TEXT">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="0" y="0" width="141" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <Condition>
+                    <Expressions><Expression name="has_icon">[COMPLICATION.MONOCHROMATIC_IMAGE] != null</Expression></Expressions>
+                    <Compare expression="has_icon">
+                        <PartImage x="95" y="10" width="32" height="32" tintColor="[CONFIGURATION.themeColor.3]">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <ImageFilters><HsbFilter saturate="0" /></ImageFilters>
+                            <Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+                        </PartImage>
+                        <PartText x="11" y="0" width="80" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="30" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Compare>
+                    <Default>
+                        <PartText x="0" y="0" width="141" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="32" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Default>
+                </Condition>
+            </Complication>
+
+            <Complication type="RANGED_VALUE">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="0" y="0" width="141" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52" alpha="90">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="109" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                    </Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="32" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                        <Transform target="endX" value="32 + 77 * clamp(([COMPLICATION.RANGED_VALUE_VALUE] - [COMPLICATION.RANGED_VALUE_MIN]) / ([COMPLICATION.RANGED_VALUE_MAX] - [COMPLICATION.RANGED_VALUE_MIN]), 0, 1)" />
+                    </Line>
+                </PartDraw>
+                <Condition>
+                    <Expressions><Expression name="has_icon">[COMPLICATION.MONOCHROMATIC_IMAGE] != null</Expression></Expressions>
+                    <Compare expression="has_icon">
+                        <PartImage x="95" y="10" width="32" height="32" tintColor="[CONFIGURATION.themeColor.3]">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <ImageFilters><HsbFilter saturate="0" /></ImageFilters>
+                            <Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+                        </PartImage>
+                        <PartText x="11" y="0" width="80" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="30" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Compare>
+                    <Default>
+                        <PartText x="0" y="0" width="141" height="52">
+                            <Variant mode="AMBIENT" target="alpha" value="200" />
+                            <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                                <Font family="google_sans_flex" weight="MEDIUM" size="32" color="[CONFIGURATION.themeColor.2]">
+                                    <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                                </Font>
+                            </Text>
+                        </PartText>
+                    </Default>
+                </Condition>
+            </Complication>
+
+            <Complication type="GOAL_PROGRESS">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="0" y="0" width="141" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52" alpha="90">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="109" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                    </Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <Line startX="32" startY="46" endX="32" endY="46">
+                        <Stroke thickness="4" cap="ROUND" color="[CONFIGURATION.themeColor.3]" />
+                        <Transform target="endX" value="32 + 77 * clamp([COMPLICATION.GOAL_PROGRESS_VALUE] / [COMPLICATION.GOAL_PROGRESS_TARGET_VALUE], 0, 1)" />
+                    </Line>
+                </PartDraw>
+                <PartText x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="200" />
+                    <Text align="CENTER" ellipsis="TRUE" isAutoSize="TRUE">
+                        <Font family="google_sans_flex" weight="MEDIUM" size="32" color="[CONFIGURATION.themeColor.2]">
+                            <Template>%s<Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="MONOCHROMATIC_IMAGE">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="44" y="0" width="52" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartImage x="56" y="11" width="30" height="30" tintColor="[CONFIGURATION.themeColor.3]">
+                    <Variant mode="AMBIENT" target="alpha" value="200" />
+                    <ImageFilters><HsbFilter saturate="0" /></ImageFilters>
+                    <Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+                </PartImage>
+            </Complication>
+
+            <Complication type="SMALL_IMAGE">
+                <PartDraw x="0" y="0" width="141" height="52">
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
+                    <RoundRectangle x="44" y="0" width="52" height="52" cornerRadiusX="26" cornerRadiusY="26">
+                        <Fill color="[CONFIGURATION.themeColor.4]" />
+                    </RoundRectangle>
+                </PartDraw>
+                <PartImage x="56" y="11" width="30" height="30">
+                    <Variant mode="AMBIENT" target="alpha" value="200" />
+                    <Image resource="[COMPLICATION.SMALL_IMAGE]" />
+                </PartImage>
+            </Complication>
+        </ComplicationSlot>
+    </Scene>
+</WatchFace>

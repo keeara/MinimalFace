@@ -1,0 +1,23 @@
+# Local machine / IDE
+local.properties
+.idea/
+.artifacts/
+
+# AI agent notes
+AGENTS.md
+**/AGENTS*.md
+
+# Build output
+.gradle/
+**/build/
+*.apk
+*.aab
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+# Python
+__pycache__/
+*.pyc

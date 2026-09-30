@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <!-- hasCode is required to be false for Watch Face Format -->
+    <application
+        android:label="@string/watch_face_name"
+        android:icon="@mipmap/ic_launcher"
+        android:hasCode="false">
+
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+        <!--
+          WFF v4 => Wear OS 6+ (API 36) e successivi.
+          V5 richiederebbe Wear OS 7 (API 37): esclude i Wear 6.
+         -->
+        <property
+            android:name="com.google.wear.watchface.format.version"
+            android:value="4" />
+    </application>
+</manifest>

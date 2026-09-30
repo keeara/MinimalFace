@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="watch_face_name">MinimalFace</string>
+
+  <string name="theme_color_label">Theme</string>
+  <string name="theme_color_zero_label">Neon Plum</string>
+  <string name="theme_color_one_label">Electric Berry</string>
+  <string name="theme_color_two_label">Sunset Apricot</string>
+  <string name="theme_color_three_label">Cyber Punk Amber</string>
+  <string name="theme_color_four_label">Mint Cyan</string>
+  <string name="theme_color_five_label">Emerald Sky</string>
+  <string name="theme_color_six_label">Pastel Lavender &amp; Butter</string>
+  <string name="theme_color_seven_label">Arctic Glacier</string>
+  <string name="theme_color_eight_label">Cloud Dancer</string>
+  <string name="theme_color_nine_label">Lagoon</string>
+  <string name="theme_color_ten_label">Clay</string>
+  <string name="theme_color_eleven_label">Sage</string>
+  <string name="theme_color_twelve_label">Lemon Zing</string>
+  <string name="theme_color_thirteen_label">Cobalt</string>
+  <string name="theme_color_fourteen_label">Fresh Green</string>
+  <string name="theme_color_fifteen_label">Pine</string>
+
+  <string name="complication_slot1_label">Left complication</string>
+  <string name="complication_slot2_label">Right complication</string>
+</resources>
