@@ -45,7 +45,15 @@ the same hue, and a deep tone for the date and complication pills.
 
 The palettes are generated from Material 3 (HCT) seeds with `tools/generate_themes.py`.
 
-## Build and install
+## Install
+
+Download the latest APK from [Releases](https://github.com/keeara/MinimalFace/releases/latest) and sideload it:
+
+```bash
+adb install MinimalFace-1.2.0.apk
+```
+
+## Build from source
 
 ```bash
 ./gradlew :watchface:assembleRelease
