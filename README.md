@@ -43,7 +43,7 @@ the same hue, and a deep tone for the date and complication pills.
 | 14 | Fresh Green | `#9ADF62` | `#16230B` | `#1C3209` | `#E1ECD2` |
 | 15 | Pine | `#68B071` | `#000A02` | `#16321A` | `#DCEDD8` |
 
-The palettes are generated from Material 3 (HCT) seeds with `tools/generate_themes.py`.
+The palettes are generated from Material 3 (HCT) seeds.
 
 ## Install
 

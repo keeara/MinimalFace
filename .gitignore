@@ -21,3 +21,6 @@ keystore.properties
 # Python
 __pycache__/
 *.pyc
+
+# Local helper scripts (not part of the app)
+tools/
