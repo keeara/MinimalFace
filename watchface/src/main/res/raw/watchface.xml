@@ -4,22 +4,24 @@
     <Metadata key="PREVIEW_TIME" value="10:08:32" />
     <UserConfigurations>
         <ColorConfiguration id="themeColor" displayName="theme_color_label" screenReaderText="theme_color_label" defaultValue="0">
-            <ColorOption id="0" displayName="theme_color_zero_label" colors="#000000 #51172D #FFE1E7 #FFB1C6 #51172D #FFB1C6 #FFB1C6" />
-            <ColorOption id="1" displayName="theme_color_one_label" colors="#000000 #391E58 #F1E3F9 #BF86FF #391E58 #BF86FF #BF86FF" />
-            <ColorOption id="2" displayName="theme_color_two_label" colors="#000000 #511A05 #FFE2D9 #FFB59C #511A05 #FFB59C #FFB59C" />
-            <ColorOption id="3" displayName="theme_color_three_label" colors="#000000 #3F2700 #FEE4C6 #FFB952 #3F2700 #FFB952 #FFB952" />
-            <ColorOption id="4" displayName="theme_color_four_label" colors="#000000 #00332B #D6EDE6 #00DFC1 #00332B #00DFC1 #00DFC1" />
-            <ColorOption id="5" displayName="theme_color_five_label" colors="#000000 #133223 #D9EDDF #75DAA8 #133223 #75DAA8 #75DAA8" />
-            <ColorOption id="6" displayName="theme_color_six_label" colors="#000000 #39224A #F3E3F8 #E1B6FF #39224A #E1B6FF #E1B6FF" />
-            <ColorOption id="7" displayName="theme_color_seven_label" colors="#000000 #152E42 #DDE9F9 #94CCFF #152E42 #94CCFF #94CCFF" />
-            <ColorOption id="8" displayName="theme_color_eight_label" colors="#000000 #2F2C26 #EEE7E0 #F3EADF #2F2C26 #F3EADF #F3EADF" />
-            <ColorOption id="9" displayName="theme_color_nine_label" colors="#000000 #0B3135 #D6ECF0 #60D7E5 #0B3135 #60D7E5 #60D7E5" />
-            <ColorOption id="10" displayName="theme_color_ten_label" colors="#000000 #412513 #FEE3D5 #E3A27A #412513 #E3A27A #E3A27A" />
-            <ColorOption id="11" displayName="theme_color_eleven_label" colors="#000000 #272F1A #E7EADA #BACE98 #272F1A #BACE98 #BACE98" />
-            <ColorOption id="12" displayName="theme_color_twelve_label" colors="#000000 #342C01 #F2E8C6 #E2C633 #342C01 #E2C633 #E2C633" />
-            <ColorOption id="13" displayName="theme_color_thirteen_label" colors="#000000 #202954 #E6E7FC #8EA0FF #202954 #8EA0FF #8EA0FF" />
-            <ColorOption id="14" displayName="theme_color_fourteen_label" colors="#000000 #1C3209 #E1ECD2 #9ADF62 #1C3209 #9ADF62 #9ADF62" />
-            <ColorOption id="15" displayName="theme_color_fifteen_label" colors="#000000 #16321A #DCEDD8 #68B071 #16321A #68B071 #68B071" />
+            <ColorOption id="0" displayName="theme_color_zero_label" colors="#000000 #20000B #FFE1E7 #FFA2BC #3A0219 #FFA2BC #FFA2BC" />
+            <ColorOption id="1" displayName="theme_color_one_label" colors="#000000 #140129 #F1E3F9 #BA7CFF #270647 #BA7CFF #BA7CFF" />
+            <ColorOption id="2" displayName="theme_color_two_label" colors="#000000 #200009 #FFE1E5 #FF7198 #380014 #FF7198 #FF7198" />
+            <ColorOption id="3" displayName="theme_color_three_label" colors="#000000 #0D0B00 #EFE9C8 #F8E600 #1D1A00 #F8E600 #F8E600" />
+            <ColorOption id="4" displayName="theme_color_four_label" colors="#000000 #000E0A #D6EDE5 #00D8BA #001E18 #00D8BA #00D8BA" />
+            <ColorOption id="5" displayName="theme_color_five_label" colors="#000000 #200101 #FFE2DE #FF8073 #370303 #FF8073 #FF8073" />
+            <ColorOption id="6" displayName="theme_color_six_label" colors="#000000 #1D001A #FCE1F1 #FF6CEA #360631 #FF6CEA #FF6CEA" />
+            <ColorOption id="7" displayName="theme_color_seven_label" colors="#000000 #000C18 #DDEAF9 #7CC3FF #001B2F #7CC3FF #7CC3FF" />
+            <ColorOption id="8" displayName="theme_color_eight_label" colors="#000000 #110A00 #EEE7E0 #F3EADF #2F2C26 #F3EADF #F3EADF" />
+            <ColorOption id="9" displayName="theme_color_nine_label" colors="#000000 #000D11 #DAEBF0 #00D3F3 #001D23 #00D3F3 #00D3F3" />
+            <ColorOption id="10" displayName="theme_color_ten_label" colors="#000000 #1B0400 #FFE2D8 #FF834E #370E00 #FF834E #FF834E" />
+            <ColorOption id="11" displayName="theme_color_eleven_label" colors="#000000 #170700 #FDE3D4 #CA9570 #2C1606 #CA9570 #CA9570" />
+            <ColorOption id="12" displayName="theme_color_twelve_label" colors="#000000 #0E0B00 #F2E8C6 #E2C633 #342C01 #E2C633 #E2C633" />
+            <ColorOption id="13" displayName="theme_color_thirteen_label" colors="#000000 #00062F #E6E7FC #8498FF #011151 #8498FF #8498FF" />
+            <ColorOption id="14" displayName="theme_color_fourteen_label" colors="#000000 #020E00 #DEEDD0 #63EE00 #061C00 #63EE00 #63EE00" />
+            <ColorOption id="15" displayName="theme_color_fifteen_label" colors="#000000 #000E03 #DBEDDA #3FB868 #001F0A #3FB868 #3FB868" />
+            <ColorOption id="16" displayName="theme_color_sixteen_label" colors="#000000 #0A0C00 #E9EACB #B2C428 #181C00 #B2C428 #B2C428" />
+            <ColorOption id="17" displayName="theme_color_seventeen_label" colors="#000000 #000E07 #D8EDDF #58DAA2 #001F12 #58DAA2 #58DAA2" />
         </ColorConfiguration>
     </UserConfigurations>
     <Scene backgroundColor="#000000">
