@@ -24,3 +24,6 @@ __pycache__/
 
 # Local helper scripts (not part of the app)
 tools/
+
+# Local backups of watchface XML
+backup/

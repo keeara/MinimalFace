@@ -4,22 +4,22 @@
     <Metadata key="PREVIEW_TIME" value="10:08:32" />
     <UserConfigurations>
         <ColorConfiguration id="themeColor" displayName="theme_color_label" screenReaderText="theme_color_label" defaultValue="0">
-            <ColorOption id="0" displayName="theme_color_zero_label" colors="#000000 #331720 #FFE1E7 #FFB1C6 #51172D #FFB1C6 #FFB1C6" />
-            <ColorOption id="1" displayName="theme_color_one_label" colors="#000000 #0C0319 #F1E3F9 #BF86FF #391E58 #BF86FF #BF86FF" />
-            <ColorOption id="2" displayName="theme_color_two_label" colors="#000000 #34180E #FFE2D9 #FFB59C #511A05 #FFB59C #FFB59C" />
-            <ColorOption id="3" displayName="theme_color_three_label" colors="#000000 #2E1C02 #FEE4C6 #FFB952 #3F2700 #FFB952 #FFB952" />
-            <ColorOption id="4" displayName="theme_color_four_label" colors="#000000 #00251E #D6EDE6 #00DFC1 #00332B #00DFC1 #00DFC1" />
-            <ColorOption id="5" displayName="theme_color_five_label" colors="#000000 #072517 #D9EDDF #75DAA8 #133223 #75DAA8 #75DAA8" />
-            <ColorOption id="6" displayName="theme_color_six_label" colors="#000000 #281A31 #F3E3F8 #E1B6FF #39224A #E1B6FF #E1B6FF" />
-            <ColorOption id="7" displayName="theme_color_seven_label" colors="#000000 #0B2133 #DDE9F9 #94CCFF #152E42 #94CCFF #94CCFF" />
-            <ColorOption id="8" displayName="theme_color_eight_label" colors="#000000 #2B1D01 #EEE7E0 #F3EADF #2F2C26 #F3EADF #F3EADF" />
-            <ColorOption id="9" displayName="theme_color_nine_label" colors="#000000 #002428 #D6ECF0 #60D7E5 #0B3135 #60D7E5 #60D7E5" />
-            <ColorOption id="10" displayName="theme_color_ten_label" colors="#000000 #2B1304 #FEE3D5 #E3A27A #412513 #E3A27A #E3A27A" />
-            <ColorOption id="11" displayName="theme_color_eleven_label" colors="#000000 #192309 #E7EADA #BACE98 #272F1A #BACE98 #BACE98" />
-            <ColorOption id="12" displayName="theme_color_twelve_label" colors="#000000 #261F02 #F2E8C6 #E2C633 #342C01 #E2C633 #E2C633" />
-            <ColorOption id="13" displayName="theme_color_thirteen_label" colors="#000000 #050920 #E6E7FC #8EA0FF #202954 #8EA0FF #8EA0FF" />
-            <ColorOption id="14" displayName="theme_color_fourteen_label" colors="#000000 #16230B #E1ECD2 #9ADF62 #1C3209 #9ADF62 #9ADF62" />
-            <ColorOption id="15" displayName="theme_color_fifteen_label" colors="#000000 #000A02 #DCEDD8 #68B071 #16321A #68B071 #68B071" />
+            <ColorOption id="0" displayName="theme_color_zero_label" colors="#000000 #51172D #FFE1E7 #FFB1C6 #51172D #FFB1C6 #FFB1C6" />
+            <ColorOption id="1" displayName="theme_color_one_label" colors="#000000 #391E58 #F1E3F9 #BF86FF #391E58 #BF86FF #BF86FF" />
+            <ColorOption id="2" displayName="theme_color_two_label" colors="#000000 #511A05 #FFE2D9 #FFB59C #511A05 #FFB59C #FFB59C" />
+            <ColorOption id="3" displayName="theme_color_three_label" colors="#000000 #3F2700 #FEE4C6 #FFB952 #3F2700 #FFB952 #FFB952" />
+            <ColorOption id="4" displayName="theme_color_four_label" colors="#000000 #00332B #D6EDE6 #00DFC1 #00332B #00DFC1 #00DFC1" />
+            <ColorOption id="5" displayName="theme_color_five_label" colors="#000000 #133223 #D9EDDF #75DAA8 #133223 #75DAA8 #75DAA8" />
+            <ColorOption id="6" displayName="theme_color_six_label" colors="#000000 #39224A #F3E3F8 #E1B6FF #39224A #E1B6FF #E1B6FF" />
+            <ColorOption id="7" displayName="theme_color_seven_label" colors="#000000 #152E42 #DDE9F9 #94CCFF #152E42 #94CCFF #94CCFF" />
+            <ColorOption id="8" displayName="theme_color_eight_label" colors="#000000 #2F2C26 #EEE7E0 #F3EADF #2F2C26 #F3EADF #F3EADF" />
+            <ColorOption id="9" displayName="theme_color_nine_label" colors="#000000 #0B3135 #D6ECF0 #60D7E5 #0B3135 #60D7E5 #60D7E5" />
+            <ColorOption id="10" displayName="theme_color_ten_label" colors="#000000 #412513 #FEE3D5 #E3A27A #412513 #E3A27A #E3A27A" />
+            <ColorOption id="11" displayName="theme_color_eleven_label" colors="#000000 #272F1A #E7EADA #BACE98 #272F1A #BACE98 #BACE98" />
+            <ColorOption id="12" displayName="theme_color_twelve_label" colors="#000000 #342C01 #F2E8C6 #E2C633 #342C01 #E2C633 #E2C633" />
+            <ColorOption id="13" displayName="theme_color_thirteen_label" colors="#000000 #202954 #E6E7FC #8EA0FF #202954 #8EA0FF #8EA0FF" />
+            <ColorOption id="14" displayName="theme_color_fourteen_label" colors="#000000 #1C3209 #E1ECD2 #9ADF62 #1C3209 #9ADF62 #9ADF62" />
+            <ColorOption id="15" displayName="theme_color_fifteen_label" colors="#000000 #16321A #DCEDD8 #68B071 #16321A #68B071 #68B071" />
         </ColorConfiguration>
     </UserConfigurations>
     <Scene backgroundColor="#000000">
@@ -45,12 +45,87 @@
             </RoundRectangle>
         </PartDraw>
 
-        <!-- Hour Text: Lowered to y=165 for better physical centering -->
-        <PartText x="30" y="109" width="180" height="220">
+        <!-- hour-layout:begin (generated by tools/gen_hour_layout.py, do not edit by hand)
+         The 5 text cells below (HH, :, MM) are laid out like one proportional string, centred in the pill.
+         WFF cannot measure text, so each cell's x is a Transform computed from the font's real glyph widths.
+         Font: quicksand.ttf wght=700 size 152.
+           advance(d) = 0:93.3 1:59.1 2:86.5 3:81.6 4:89.4 5:87.5 6:84.1 7:83.5 8:83.3 9:86.3
+           inkLeft(d) = 0:6.0 1:3.0 2:8.0 3:6.0 4:1.0 5:9.0 6:7.0 7:8.0 8:6.0 9:7.0   (gap before the glyph ink)
+           inkRight(d)= 0:5.3 1:12.1 2:7.5 3:6.6 4:3.4 5:8.5 6:5.1 7:3.5 8:5.3 9:7.3   (gap after the glyph ink)
+           pitch(d)   = advance(d) - 3.33   (the widest digit takes exactly one 90px cell)
+         Block width = pitch(Ht) + pitch(Hu) + 30 (colon) + pitch(Mt) + pitch(Mu), centred on x=225;
+         then shifted by (inkRight(Mu) - inkLeft(Ht)) / 2 so the INK edges, not the advance boxes, are symmetric.
+         Each cell: x = centre of that element - 45 (colon: - 15); every pitch/ink term enters with a +-1/2 factor.
+         Ht, Hu, Mt, Mu = tens/units digit of hours/minutes.
+         is(X,k) = floor(1 / (1 + (X - k) * (X - k)))  is 1 when digit X equals k, otherwise 0
+         (WFF has no usable == or lookup tables; only digits deviating >= 1.4px from the median are listed).
+         Each Transform line is: constant, then one "+/- coefficient * is(digit,k)" term per line.
+         Check: tools/shoot_times.sh + tools/measure_margins.py (left/right margin difference <= ~3px). -->
+        <!-- hour-layout:end -->
+        <PartText x="30" y="109" width="90" height="220">
             <Variant mode="AMBIENT" target="alpha" value="0" />
-            <Text align="END">
+            <Transform target="x" value="40.3
+                 - 3.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 0) * (([HOUR_0_23] % 10) - 0)))
+                 + 13.60 * floor(1 / (1 + (([HOUR_0_23] % 10) - 1) * (([HOUR_0_23] % 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (([HOUR_0_23] % 10) - 3) * (([HOUR_0_23] % 10) - 3)))
+                 - 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 4) * (([HOUR_0_23] % 10) - 4)))
+                 + 1.15 * floor(1 / (1 + (([HOUR_0_23] % 10) - 6) * (([HOUR_0_23] % 10) - 6)))
+                 + 1.45 * floor(1 / (1 + (([HOUR_0_23] % 10) - 7) * (([HOUR_0_23] % 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 8) * (([HOUR_0_23] % 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 0) * (floor([MINUTE] / 10) - 0)))
+                 + 13.60 * floor(1 / (1 + (floor([MINUTE] / 10) - 1) * (floor([MINUTE] / 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (floor([MINUTE] / 10) - 3) * (floor([MINUTE] / 10) - 3)))
+                 - 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 4) * (floor([MINUTE] / 10) - 4)))
+                 + 1.15 * floor(1 / (1 + (floor([MINUTE] / 10) - 6) * (floor([MINUTE] / 10) - 6)))
+                 + 1.45 * floor(1 / (1 + (floor([MINUTE] / 10) - 7) * (floor([MINUTE] / 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 8) * (floor([MINUTE] / 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (([MINUTE] % 10) - 0) * (([MINUTE] % 10) - 0)))
+                 + 16.35 * floor(1 / (1 + (([MINUTE] % 10) - 1) * (([MINUTE] % 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (([MINUTE] % 10) - 3) * (([MINUTE] % 10) - 3)))
+                 - 3.10 * floor(1 / (1 + (([MINUTE] % 10) - 4) * (([MINUTE] % 10) - 4)))
+                 + 0.40 * floor(1 / (1 + (([MINUTE] % 10) - 6) * (([MINUTE] % 10) - 6)))
+                 - 0.10 * floor(1 / (1 + (([MINUTE] % 10) - 7) * (([MINUTE] % 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (([MINUTE] % 10) - 8) * (([MINUTE] % 10) - 8)))
+                 + 2.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 1) * (floor([HOUR_0_23] / 10) - 1)))
+                 + 3.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 4) * (floor([HOUR_0_23] / 10) - 4)))
+                 - 1.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 5) * (floor([HOUR_0_23] / 10) - 5)))
+                 + 0.95 * floor(1 / (1 + (([MINUTE] % 10) - 5) * (([MINUTE] % 10) - 5)))" />
+            <Text align="CENTER">
                 <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
-                    <Template>%s<Parameter expression="[HOUR_0_23_Z]" /></Template>
+                    <Template>%d<Parameter expression="floor([HOUR_0_23] / 10)" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <PartText x="120" y="109" width="90" height="220">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <Transform target="x" value="123.3
+                 + 3.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 0) * (floor([HOUR_0_23] / 10) - 0)))
+                 - 11.60 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 1) * (floor([HOUR_0_23] / 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 3) * (floor([HOUR_0_23] / 10) - 3)))
+                 + 4.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 4) * (floor([HOUR_0_23] / 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 6) * (floor([HOUR_0_23] / 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 7) * (floor([HOUR_0_23] / 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 8) * (floor([HOUR_0_23] / 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 0) * (floor([MINUTE] / 10) - 0)))
+                 + 13.60 * floor(1 / (1 + (floor([MINUTE] / 10) - 1) * (floor([MINUTE] / 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (floor([MINUTE] / 10) - 3) * (floor([MINUTE] / 10) - 3)))
+                 - 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 4) * (floor([MINUTE] / 10) - 4)))
+                 + 1.15 * floor(1 / (1 + (floor([MINUTE] / 10) - 6) * (floor([MINUTE] / 10) - 6)))
+                 + 1.45 * floor(1 / (1 + (floor([MINUTE] / 10) - 7) * (floor([MINUTE] / 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 8) * (floor([MINUTE] / 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (([MINUTE] % 10) - 0) * (([MINUTE] % 10) - 0)))
+                 + 16.35 * floor(1 / (1 + (([MINUTE] % 10) - 1) * (([MINUTE] % 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (([MINUTE] % 10) - 3) * (([MINUTE] % 10) - 3)))
+                 - 3.10 * floor(1 / (1 + (([MINUTE] % 10) - 4) * (([MINUTE] % 10) - 4)))
+                 + 0.40 * floor(1 / (1 + (([MINUTE] % 10) - 6) * (([MINUTE] % 10) - 6)))
+                 - 0.10 * floor(1 / (1 + (([MINUTE] % 10) - 7) * (([MINUTE] % 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (([MINUTE] % 10) - 8) * (([MINUTE] % 10) - 8)))
+                 - 1.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 5) * (floor([HOUR_0_23] / 10) - 5)))
+                 + 0.95 * floor(1 / (1 + (([MINUTE] % 10) - 5) * (([MINUTE] % 10) - 5)))" />
+            <Text align="CENTER">
+                <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
+                    <Template>%d<Parameter expression="[HOUR_0_23] % 10" /></Template>
                 </Font>
             </Text>
         </PartText>
@@ -58,6 +133,37 @@
         <Group name="colon" x="0" y="0" width="450" height="450">
             <Variant mode="AMBIENT" target="alpha" value="0" />
             <PartText x="210" y="109" width="30" height="220">
+                <Transform target="x" value="209.8
+                 + 3.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 0) * (floor([HOUR_0_23] / 10) - 0)))
+                 - 11.60 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 1) * (floor([HOUR_0_23] / 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 3) * (floor([HOUR_0_23] / 10) - 3)))
+                 + 4.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 4) * (floor([HOUR_0_23] / 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 6) * (floor([HOUR_0_23] / 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 7) * (floor([HOUR_0_23] / 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 8) * (floor([HOUR_0_23] / 10) - 8)))
+                 + 3.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 0) * (([HOUR_0_23] % 10) - 0)))
+                 - 13.60 * floor(1 / (1 + (([HOUR_0_23] % 10) - 1) * (([HOUR_0_23] % 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (([HOUR_0_23] % 10) - 3) * (([HOUR_0_23] % 10) - 3)))
+                 + 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 4) * (([HOUR_0_23] % 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (([HOUR_0_23] % 10) - 6) * (([HOUR_0_23] % 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (([HOUR_0_23] % 10) - 7) * (([HOUR_0_23] % 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 8) * (([HOUR_0_23] % 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 0) * (floor([MINUTE] / 10) - 0)))
+                 + 13.60 * floor(1 / (1 + (floor([MINUTE] / 10) - 1) * (floor([MINUTE] / 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (floor([MINUTE] / 10) - 3) * (floor([MINUTE] / 10) - 3)))
+                 - 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 4) * (floor([MINUTE] / 10) - 4)))
+                 + 1.15 * floor(1 / (1 + (floor([MINUTE] / 10) - 6) * (floor([MINUTE] / 10) - 6)))
+                 + 1.45 * floor(1 / (1 + (floor([MINUTE] / 10) - 7) * (floor([MINUTE] / 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 8) * (floor([MINUTE] / 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (([MINUTE] % 10) - 0) * (([MINUTE] % 10) - 0)))
+                 + 16.35 * floor(1 / (1 + (([MINUTE] % 10) - 1) * (([MINUTE] % 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (([MINUTE] % 10) - 3) * (([MINUTE] % 10) - 3)))
+                 - 3.10 * floor(1 / (1 + (([MINUTE] % 10) - 4) * (([MINUTE] % 10) - 4)))
+                 + 0.40 * floor(1 / (1 + (([MINUTE] % 10) - 6) * (([MINUTE] % 10) - 6)))
+                 - 0.10 * floor(1 / (1 + (([MINUTE] % 10) - 7) * (([MINUTE] % 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (([MINUTE] % 10) - 8) * (([MINUTE] % 10) - 8)))
+                 - 1.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 5) * (floor([HOUR_0_23] / 10) - 5)))
+                 + 0.95 * floor(1 / (1 + (([MINUTE] % 10) - 5) * (([MINUTE] % 10) - 5)))" />
                 <Transform target="alpha" value="255 * (1 - [SECOND] % 2)" />
                 <Text align="CENTER">
                     <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
@@ -67,11 +173,72 @@
             </PartText>
         </Group>
 
-        <PartText x="240" y="109" width="180" height="220">
+        <PartText x="240" y="109" width="90" height="220">
             <Variant mode="AMBIENT" target="alpha" value="0" />
-            <Text align="START">
+            <Transform target="x" value="236.3
+                 + 3.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 0) * (floor([HOUR_0_23] / 10) - 0)))
+                 - 11.60 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 1) * (floor([HOUR_0_23] / 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 3) * (floor([HOUR_0_23] / 10) - 3)))
+                 + 4.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 4) * (floor([HOUR_0_23] / 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 6) * (floor([HOUR_0_23] / 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 7) * (floor([HOUR_0_23] / 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 8) * (floor([HOUR_0_23] / 10) - 8)))
+                 + 3.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 0) * (([HOUR_0_23] % 10) - 0)))
+                 - 13.60 * floor(1 / (1 + (([HOUR_0_23] % 10) - 1) * (([HOUR_0_23] % 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (([HOUR_0_23] % 10) - 3) * (([HOUR_0_23] % 10) - 3)))
+                 + 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 4) * (([HOUR_0_23] % 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (([HOUR_0_23] % 10) - 6) * (([HOUR_0_23] % 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (([HOUR_0_23] % 10) - 7) * (([HOUR_0_23] % 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 8) * (([HOUR_0_23] % 10) - 8)))
+                 - 3.50 * floor(1 / (1 + (([MINUTE] % 10) - 0) * (([MINUTE] % 10) - 0)))
+                 + 16.35 * floor(1 / (1 + (([MINUTE] % 10) - 1) * (([MINUTE] % 10) - 1)))
+                 + 2.35 * floor(1 / (1 + (([MINUTE] % 10) - 3) * (([MINUTE] % 10) - 3)))
+                 - 3.10 * floor(1 / (1 + (([MINUTE] % 10) - 4) * (([MINUTE] % 10) - 4)))
+                 + 0.40 * floor(1 / (1 + (([MINUTE] % 10) - 6) * (([MINUTE] % 10) - 6)))
+                 - 0.10 * floor(1 / (1 + (([MINUTE] % 10) - 7) * (([MINUTE] % 10) - 7)))
+                 + 1.50 * floor(1 / (1 + (([MINUTE] % 10) - 8) * (([MINUTE] % 10) - 8)))
+                 - 1.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 5) * (floor([HOUR_0_23] / 10) - 5)))
+                 + 0.95 * floor(1 / (1 + (([MINUTE] % 10) - 5) * (([MINUTE] % 10) - 5)))" />
+            <Text align="CENTER">
                 <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
-                    <Template>%s<Parameter expression="[MINUTE_Z]" /></Template>
+                    <Template>%d<Parameter expression="floor([MINUTE] / 10)" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <PartText x="330" y="109" width="90" height="220">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
+            <Transform target="x" value="319.3
+                 + 3.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 0) * (floor([HOUR_0_23] / 10) - 0)))
+                 - 11.60 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 1) * (floor([HOUR_0_23] / 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 3) * (floor([HOUR_0_23] / 10) - 3)))
+                 + 4.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 4) * (floor([HOUR_0_23] / 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 6) * (floor([HOUR_0_23] / 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 7) * (floor([HOUR_0_23] / 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 8) * (floor([HOUR_0_23] / 10) - 8)))
+                 + 3.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 0) * (([HOUR_0_23] % 10) - 0)))
+                 - 13.60 * floor(1 / (1 + (([HOUR_0_23] % 10) - 1) * (([HOUR_0_23] % 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (([HOUR_0_23] % 10) - 3) * (([HOUR_0_23] % 10) - 3)))
+                 + 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 4) * (([HOUR_0_23] % 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (([HOUR_0_23] % 10) - 6) * (([HOUR_0_23] % 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (([HOUR_0_23] % 10) - 7) * (([HOUR_0_23] % 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (([HOUR_0_23] % 10) - 8) * (([HOUR_0_23] % 10) - 8)))
+                 + 3.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 0) * (floor([MINUTE] / 10) - 0)))
+                 - 13.60 * floor(1 / (1 + (floor([MINUTE] / 10) - 1) * (floor([MINUTE] / 10) - 1)))
+                 - 2.35 * floor(1 / (1 + (floor([MINUTE] / 10) - 3) * (floor([MINUTE] / 10) - 3)))
+                 + 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 4) * (floor([MINUTE] / 10) - 4)))
+                 - 1.15 * floor(1 / (1 + (floor([MINUTE] / 10) - 6) * (floor([MINUTE] / 10) - 6)))
+                 - 1.45 * floor(1 / (1 + (floor([MINUTE] / 10) - 7) * (floor([MINUTE] / 10) - 7)))
+                 - 1.50 * floor(1 / (1 + (floor([MINUTE] / 10) - 8) * (floor([MINUTE] / 10) - 8)))
+                 - 1.00 * floor(1 / (1 + (floor([HOUR_0_23] / 10) - 5) * (floor([HOUR_0_23] / 10) - 5)))
+                 + 2.75 * floor(1 / (1 + (([MINUTE] % 10) - 1) * (([MINUTE] % 10) - 1)))
+                 - 1.60 * floor(1 / (1 + (([MINUTE] % 10) - 4) * (([MINUTE] % 10) - 4)))
+                 + 0.95 * floor(1 / (1 + (([MINUTE] % 10) - 5) * (([MINUTE] % 10) - 5)))
+                 - 0.75 * floor(1 / (1 + (([MINUTE] % 10) - 6) * (([MINUTE] % 10) - 6)))
+                 - 1.55 * floor(1 / (1 + (([MINUTE] % 10) - 7) * (([MINUTE] % 10) - 7)))" />
+            <Text align="CENTER">
+                <Font family="quicksand" weight="BOLD" size="152" color="[CONFIGURATION.themeColor.1]">
+                    <Template>%d<Parameter expression="[MINUTE] % 10" /></Template>
                 </Font>
             </Text>
         </PartText>
