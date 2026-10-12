@@ -50,7 +50,7 @@ The palettes are generated from Material 3 (HCT) seeds.
 Download the latest APK from [Releases](https://github.com/keeara/MinimalFace/releases/latest) and sideload it:
 
 ```bash
-adb install MinimalFace-1.2.0.apk
+adb install MinimalFace-1.2.2.apk
 ```
 
 ## Build from source
