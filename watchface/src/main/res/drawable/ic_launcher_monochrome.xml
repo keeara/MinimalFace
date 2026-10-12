@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon layer: same pill, colon dots cut out. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M40,38H68A16,16 0 0,1 68,70H40A16,16 0 0,1 40,38Z M54,45.8a3.2,3.2 0 1,0 0,6.4a3.2,3.2 0 1,0 0,-6.4Z M54,55.8a3.2,3.2 0 1,0 0,6.4a3.2,3.2 0 1,0 0,-6.4Z" />
+</vector>
